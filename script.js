@@ -16,8 +16,6 @@ let button_clickedequal = document.getElementById("=");
 }
 
 //add numbers logic
-let i = 0;
-
 for(let i = 0; i <= 9 ;i++){
     document.getElementById(i.toString()).onclick = () =>{
         display(i);
